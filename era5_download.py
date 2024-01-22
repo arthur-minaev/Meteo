@@ -7,8 +7,8 @@ except:
     ee.Authenticate()
 from temp_files import StopFromStorage
 
-shp = r"\\172.21.195.2\thematic\!projects\GPA2\SMI\Новосибирск\suzunsky.geojson"
-out_dir = r"\\172.21.195.2\thematic\!projects\GPA2\SMI\Новосибирск\era5\era5_2022       "
+shp = r"D:\era5\suzunsky.geojson"
+out_dir = r"D:\era5\era5_2022       "
 start_date = date(2022, 5, 1)
 end_date = date(2022, 10, 1)
 indicators = ['temperature_2m', 'total_precipitation_sum']
